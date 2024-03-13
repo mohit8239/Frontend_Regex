@@ -1,0 +1,199 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.container{
+    height: 450vh;
+    width: 100%;
+    /* border: 1px solid red; */
+    padding: 10px;
+}
+.cont1{
+    height: 150px;
+    border-radius: 7px;
+    padding: 10px;
+    width: 100%;
+    border: 6px solid rgb(203, 203, 31);
+    display: flex;
+    align-items: center;
+    background: linear-gradient(100deg,rgb(88, 62, 62),orange,red,pink,yellow,rgb(151, 229, 151),rgb(65, 65, 216),rgb(139, 139, 10),white,green,violet,brown,grey,purple,rgb(63, 35, 35));
+}
+.cont1 .cont1-1{
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 400px;
+    height: 70px;
+    
+    
+}
+.cont1-1 h2{
+    color: white;
+    font-size: 35px !important;
+}
+.cont1-1 p{
+    color: rgb(255, 255, 4);
+    font-size: 18px;
+    
+}
+.cont2{
+    width: 100%;
+    height: 375vh;
+    /* border: 1px solid black; */
+    display: flex;
+    background-color: rgba(192, 192, 142, 0.377);
+}
+.cont2-1{
+    width: 70%;
+    height: 375vh;
+    border: 3px solid rgb(203, 203, 31);
+    border-radius: 6px;
+    padding: 10px 20px 10px 10px;
+    background-color: white;
+}
+.cont2-2{
+    width: 30%;
+    height: 700px;
+    /* border: 1px solid green; */
+
+}
+.cont2 .cont2-1 .cont2-1-1{
+    width: 100%;
+    height: 55px;
+    border: 1px solid rgb(154, 154, 219);
+    background:linear-gradient(95deg,blue,white);
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+.cont2-1-1 h2{
+    color: white;
+}
+.cont2-1-2{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    overflow: hidden;
+    
+}
+.cont2-1-2-1{
+    width: 33.3%;
+    height: 250px;
+    border: 1px solid rgb(203, 203, 31);
+    padding: 8px;
+    background-color: rgba(192, 192, 142, 0.377);
+}
+.cont2-1-2-1 span{
+    float: right;
+    text-decoration: underline;
+    margin-top: -5px;
+    
+}
+.cont2-1-2-1 p{
+    text-align: justify;
+    font-size: clamp(0.625rem, 0.516rem + 0.4651vw, 0.9375rem);
+    overflow: hidden;
+}
+.cont2-1-4{
+    display: flex;
+    gap: 13px;
+
+    
+}
+.cont2-1-4 p{
+    text-align: justify;
+    overflow: hidden;
+    font-size: clamp(0.625rem, 0.4506rem + 0.7442vw, 1.125rem);
+}
+.cont2-1-4 img{
+    background-size: cover;
+    /* border: 1px solid black; */
+    padding: 10px;
+    margin: 0px 5px 5px 5px;
+    height: 380px;
+    width: 360px;
+    
+}
+.cont2-1-7{
+    display: flex;
+    gap: 13px;
+    
+}
+.cont2-1-7 p{
+    text-align: justify;
+    overflow: hidden;
+    font-size: clamp(0.625rem, 0.4506rem + 0.7442vw, 1.125rem);
+}
+.cont2-1-7 img{
+    background-size: contain;
+    /* border: 1px solid black; */
+    padding: 10px;
+    margin: 0px 5px 5px 5px;
+    height: 380px;
+    width: 360px;
+}
+.cont2-1-9{
+    /* border: 1px solid black; */
+    margin-left: 10px;
+}
+.cont2-1-9 {
+    background-color: rgba(192, 192, 142, 0.377);
+    padding: 20px;
+}
+.cont4{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* border: 1px solid black; */
+}
+.cont4 .box11, .box41{
+    /* border: 1px solid black; */
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+}
+.cont4 .box21,.box31{
+    /* border: 1px solid black; */
+    width: 200px;
+    height: 250px;
+    padding: 10px;
+}
+.cont5{
+    /* border: 1px solid black; */
+    padding: 10px;
+}
+.contfour{
+    margin: 10px 5px 10px 10px;
+    /* border: 1px solid red; */
+    background: rgba(150, 102, 6, 0.377);
+    width: 30%;
+    height: 400px;
+}
+.contfour div{
+    /* border: 1px solid black; */
+    padding: 10px;
+    width: 95%;
+    height: 50px;
+    margin: 10px 5px 10px 10px;
+    text-align: ;
+    font-size: clamp(0.625rem, 0.3852rem + 1.0233vw, 1.3125rem);
+    color: rgb(164, 86, 86);
+    background-color: rgba(150, 150, 6, 0.707);
+
+}
+.contfour div:hover{
+    background-color: rgba(209, 209, 9, 0.734);
+    cursor: default;
+}
+table .Tr2,.Tr3,.Tr4,.Tr5{
+    background-color: rgba(192, 192, 142, 0.377);
+    text-align: justify;
+    padding-left: 
+}
+table .Tr1{
+    background-color: rgb(180, 180, 215);
+    
+}
