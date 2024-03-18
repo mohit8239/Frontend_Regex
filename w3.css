@@ -1,0 +1,244 @@
+*{
+    font-family: Poppins;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    line-height: 1.5;
+}
+.outer{
+    min-height: 100vh;
+    width: 100vw;
+    border: 1px solid red;
+    display: flex;
+    
+}
+.nav{
+    height: 100vh;
+    width: 300px;
+    border: 1px solid green;
+    background-color: #F44336;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 53px 16px 8px 20px;
+    
+}
+.nav .heding{
+    height: 220px;
+    width: 268px;
+    border: 1px solid blue;
+    padding: 0px 16px;
+}
+.heding h3{
+    font-size: 26px;
+    font-weight: 580;
+    line-height: 36px;
+    text-size-adjust: 100%;
+    color: white;
+    padding: 64px 0px;
+}
+.nav .nav-1 a{
+    display: block;
+    padding: 8px 16px;
+    width: 100%;
+    font-size: 20px;
+    color: white;
+    font-weight: 510;
+    text-decoration: none;
+    cursor: pointer;
+    margin-bottom: ;
+}
+.nav-1 a:hover{
+    background-color: white;
+    color: black;
+}
+.cont{
+    width: 85vw;
+    
+    border: 1px solid blue;
+    margin-left: 340px;
+    margin-right: 40px;
+}
+.cont .cont-1{
+    margin-top: 110px;
+}
+.cont-1 h1{
+    font-size: 66px;
+    font-weight: 510;
+}
+.cont-1 p{
+    font-size: 48px;
+    font-weight: 600;
+    color: #f44336;
+}
+.cont-2{
+    width:1100px;
+    
+    border: 1px solid violet;
+
+}
+.cont-2 .cont-2-left{
+    width: 49.99%;
+    
+    border: 2px solid darkcyan;
+    float: left;
+    padding: 0px 8px;
+}
+
+.cont-2-left img{
+    opacity: 0.7;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+    
+}
+.cont-2-left img:hover{
+    opacity: 1;
+}
+
+.cont-3{
+    width: 1100px;
+    /* height: 332px; */
+    border: 1px solid rgb(114, 114, 5);
+    padding: 0px 16px;
+    margin-top: 275px !important;
+}
+.cont-3 .pee{
+    font-size: 48px;
+    font-weight: 600;
+    color: #f44336;
+}
+.cont-3 .p-1{
+    font-weight: 400;
+}
+
+.cont-4{
+    width: 1100px;
+    /* height: 338px; */
+    border: 1px solid rgb(114, 114, 5);
+    padding: 0px 16px;
+    margin-top: 75px;
+}
+.cont-4 .pee{
+    font-size: 48px;
+    font-weight: 600;
+    color: #f44336;
+}
+.cont-4 .p-1{
+    font-weight: 400;
+}
+.cont-5{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+    padding: 0px 8px;
+    margin-bottom: 16px;
+    
+}
+.cont-5-1-1{
+    margin: 0px 7px;
+}
+.cont-5-1-1 img{
+    filter: grayscale(0.7);
+}
+.cont-5-1-1-1{
+    color: black;
+    background-color: #f1f1f1;
+    padding: 0.01em 16px;
+    margin-top: -5px;
+}
+.cont-5-1-1-1 h3{
+    margin: 10px 0px;
+    font-size: 24px;
+    font-weight: 400;
+}
+.cont-5-1-1-1 .one {
+    font-size: 16px;
+    opacity: 0.6;
+    margin: 20px 0px;
+}
+
+.cont-5-1-1-1 .two {
+    font-size: 16px;
+    margin: 10px 0px;
+}
+.cont-6{
+    width: 1100px;
+    /* height: 332px; */
+    border: 1px solid rgb(114, 114, 5);
+    padding: 0px 16px;
+    margin-top: 75px;
+}
+.cont-6 .pee{
+    font-size: 48px;
+    font-weight: 600;
+    color: #f44336;
+}
+.cont-6 .p-1{
+    font-weight: 400;
+}
+.cont-7{
+    width: 100%;
+    border: 1px solid brown;
+    padding: 0px 8px;
+    margin-top: -10px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.cont-7-1{
+    width: 49%;
+    border: 2px solid green;
+
+}
+.cont-7-1 p{
+    text-align: center;
+    font-weight: 400;
+    color: black;
+}
+.ek p{
+    color: white;
+    background-color: #616161;
+    padding: 35px 20px;
+    font-size: 24px;
+}
+.do p{
+    background-color: #f1f1f1;
+    border-bottom: 1px solid #ddd;
+    padding: 16px 0px;
+}
+.saat button:hover{
+    background: black !important;
+    color: white;
+    cursor: pointer;
+}
+.cont-8{
+    margin-top: 75px;
+    border: 1px solid slateblue;
+    width: 100%;
+}
+.cont-8 form label[type=text]{
+    margin: 5px 0px;
+}
+
+@media screen and (max-width:543px) {
+    .cont-2 .cont-2-left{
+        float: none;
+        width: 100%;
+    }
+    .nav{
+        display: none;
+        position: static;
+    }
+    .cont{
+        width: 1444px;
+        border: 10px solid blueviolet;
+    }
+    .outer{
+        display: block;
+        width: 100%;
+    }
+    
+}
