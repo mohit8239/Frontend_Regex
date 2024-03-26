@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .cont{
+            border: 2px solid black;
+            width: 150px; 
+            height: 150px; 
+            position: relative; 
+            cursor: pointer;
+            background-color: #fff;
+            overflow: hidden;
+
+        }
+        .cont::before{
+            content: "";
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            height: 100%;
+            width: 100%;
+            transform: translateY(100%);
+            background-color: blue;
+            transition: ease-in 0.4s;
+            
+        }
+        .cont:hover:before{
+            transform: translateY(0);
+        }
+    </style>
+</head>
+<body>
+    <div class="cont"></div>
+</body>
+</html>
