@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .card-outer{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .card{
+            height: 500px;
+            width: 400px;        
+            background: url(about-img.jpg);
+            background-size: cover;
+            position: relative;
+        }
+        .card::before{
+            content: "<div><h3>Lorem, ipsum dolor.</h3><p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore odio accusantium assumenda dolores nam beatae.</p></div>";
+                position: absolute;
+                bottom: 0;
+                right: 0;
+                height: 100%;
+                width: 100%;
+                transform: translatey(-100%);
+                background-color: rgb(9,58,114,0.4);
+                transition: ease-in 0.3s;
+                z-index: 9;
+                color:rgb(19,53,123) ;
+                overflow: hidden;
+        }
+        .card:hover:before{
+            transform: translateY(0%);
+        }
+        .card:hover{
+
+        }
+
+    </style>
+</head>
+<body>
+    <div class="card-outer">
+        <div class="card">
+           
+        </div>
+    </div>
+</body>
+</html>
