@@ -11,8 +11,8 @@
 </head>
 <body>
     <div class="section" >
-        <div class="row" style="border: 1px solid red;">
-            <div class="col-lg-3 px-4 float-left" id="sec">
+        <div class="row" style="border: 1px solid red;" id="roww">
+            <div class="col-lg-3 px-4 float-left position-fixed" id="sec">
                 <img src="https://www.w3schools.com/w3images/avatar_g2.jpg" alt="" class="image-fluids">
                 <h5 class="pt-4 fw-bold">PORTFOLIO</h5>
                 <p class="pt-1">Template by W3.CSS</p>
@@ -30,8 +30,101 @@
                     <i class="fa-brands fa-linkedin-in"></i>
                 </div>
             </div>
-            <div class="col-lg-8 float-right" style="border: 1px solid green";>
-                <h2>My Portfolio</h2>
+            <div class="col-lg-8 w-75 float-right p-4 position-absolute top-0 end-0 " id="sec2" style="border: 1px solid green";>
+                <h2 class="fs-1 fw-semibold text-black">My Portfolio</h2>
+                <div class="col d-flex align-items-baseline mt-4">
+                    <p class="m-2">Filter: </p>
+                    <button id="all">ALL</button>
+                    <button id="dmnd"><i class="fa-regular fa-gem"></i> Design</button>
+                    <button id="photo"><i class="fa-regular fa-image"></i> Photos</button>
+                </div>
+                <hr class="border-5">
+                <div class="col d-flex flex-xl-wrap justify-content-between">
+                    <div class="card" style="width: 17rem;">
+                        <img class="card-img-top" src="https://www.w3schools.com/w3images/mountains.jpg" alt="Card image cap">
+                        <div class="card-body">
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                      </div>
+                      <div class="card" style="width: 17rem;">
+                        <img class="card-img-top" src="https://www.w3schools.com/w3images/lights.jpg" alt="Card image cap">
+                        <div class="card-body">
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                      </div>
+                      <div class="card" style="width: 17rem;">
+                        <img class="card-img-top" src="https://www.w3schools.com/w3images/nature.jpg" alt="Card image cap">
+                        <div class="card-body">
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                      </div>
+                      <div class="card" style="width: 17rem;">
+                        <img class="card-img-top" src="https://www.w3schools.com/w3images/p1.jpg" alt="Card image cap">
+                        <div class="card-body">
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                      </div>
+                      <div class="card" style="width: 17rem;">
+                        <img class="card-img-top" src="https://www.w3schools.com/w3images/p2.jpg" alt="Card image cap">
+                        <div class="card-body">
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                      </div>
+                      <div class="card" style="width: 17rem;">
+                        <img class="card-img-top" src="https://www.w3schools.com/w3images/p3.jpg" alt="Card image cap">
+                        <div class="card-body">
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                      </div>
+                </div>
+                <br>
+                <nav aria-label="Page navigation example" class="d-flex justify-content-center p-4">
+                  <ul class="pagination">
+                    <li class="page-item">
+                      <a class="page-link" href="#" aria-label="Previous">
+                        <span aria-hidden="true">&laquo;</span>
+                      </a>
+                    </li>
+                    <li class="page-item"><a class="page-link" style="background-color: black !important; color: white !important;" href="#">1</a></li>
+                    <li class="page-item"><a class="page-link" href="#">2</a></li>
+                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+                    <li class="page-item">
+                      <a class="page-link" href="#" aria-label="Next">
+                        <span aria-hidden="true">&raquo;</span>
+                      </a>
+                    </li>
+                  </ul>
+                </nav>
+
+                <div class="row d-flex justify-content-center">
+                  <div class="col-6">
+                    <img src="https://www.w3schools.com/w3images/avatar_g.jpg" alt="" class="img-fluid">
+                  </div>
+                  <div class="col-6">
+                    <img src="https://www.w3schools.com/w3images/me2.jpg" alt="" class="img-fluid">
+                  </div>
+                </div>
+
+                <div class="row py-4 mt-3">
+                  <div class="col-12">
+                    <h5 class="fw-semibold text-black">About Me</h5>
+                    <p class="text-black fs-6 fw-normal " style="font-size: 15px !important;">Just me, myself and I, exploring the universe of unknownment. I have a heart of love and an interest of lorem ipsum and mauris neque quam blog. I want to share my world with you. Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla. Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+                  </div>
+                  <div class="col-12 pt-5 d-flex flex-column" id="coll">
+                    <h5>Technical Skills</h5>
+                    <label for="file">Photography:</label>
+                    <progress id="photoo" class="p-5 w-100 " value="95" max="100">95%</progress>
+                    <label for="file">Web Design:</label>
+                    <progress id="photoo"  class="p-5 w-100 " value="85" max="100">85%</progress>
+                    <label for="file">Photoshop:</label>
+                    <progress id="photoo" class="p-5 w-100" value="80" max="100">80%</progress>
+
+                    
+                    
+                  </div>
+                  <button class="border-0 mx-3 my-5" id="dwnld"><i class="fa-solid fa-download mx-2"></i> Download Resume</button>
+                </div>
+
             </div>
         </div>
     </div>
