@@ -873,9 +873,7 @@ visibility: hidden;
 transition: 0.2s ease-in-out;
 overflow: hidden;
 }
-.icon i{
 
-}
 .icon i::before{
 content: "";
 position: absolute;
@@ -886,7 +884,7 @@ width: 100%;
 transform: translateX(-100%);
 background-color: white;
 transition: ease-in 0.3s;
-z-index: ;
+
 color:rgb(19,53,123) ;
 overflow: hidden;
 }
@@ -897,7 +895,7 @@ z-index: -999;
 .icon i:hover{
 color: rgb(19,53,123);
 border: 1px solid rgb(19,53,123);
-z-index: ; 
+
 }
 .icon i{
 color: rgb(12, 40, 95);
@@ -918,22 +916,98 @@ position: relative;
     justify-content: space-between;
     align-items: center;
     width: 730px;
-    border: 1px solid red;
+    
     margin-right: 3px;
 }
 .destination .left .image{
     margin-bottom: 25px
 }
 .destination .left2{
-    border: 1px solid black;
     width: 400px;
 }
 .destination .left2 .image{
     margin-bottom: 25px
 }
 .wrap{
-    border: 1px solid brown;
-
+    
 }
+.world .para{
+    width: 900px;
+    margin: auto;
+    text-align: center;
+    opacity: 0.7;
+    margin-top: -10px;
+}
+.world .botn button{
+    padding: 10px 31px;
+    font-size: 15px;
+    outline: none;
+    border: 1px solid #13357B;
+    border-radius: 23px;
+    background-color: rgba(74, 91, 124, 0.2);
+}
+.world .botn{
+    width: 489px;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 70px;
+}
+.dibba-outer{
+    width: 350px;
+    margin: auto;
+    position: relative ;
+    overflow: hidden;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.dibba{
+    position: relative;
+}
+.dibba-inner{
+    position: absolute;
+    bottom: 25px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    
+}
+.icn{
+    position: absolute;
+    top: 40%;
+    z-index: 10;
+    left: 43%;
+    font-size: 33px;
+    color: white;
+    visibility: hidden;
+    transition: all 0.3s;
+}
+
+ .dibba .bg{
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgb(0, 0, 0, 0.2),rgb(0, 0, 0, 0.2));
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.dibba-outer:hover img{
+    transform: scale(1.2);
+}
+.dibba-outer:hover .bg{
+    background: #13367b67;
+}
+
+.dibba-outer:hover .icn{
+    visibility: visible;
+}
+.carrd{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 83%;
+    margin: auto;
+}
+
 
 
