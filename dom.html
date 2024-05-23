@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <textarea name="" id="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam nisi sit eum dolorum quo nostrum incidunt laborum culpa expedita itaque!</textarea>
+    <button id="btn"> Click </button>
+    <p id="pe"></p> -->
+    <select name="" id="se">
+        <option value="Mohit">Mohit</option>
+        <option value="Rohit">Rohit</option>
+        <option value="amn">amn</option>
+        <option value="raaj">raaj</option>
+    </select>
+
+    <p id="pe"></p>
+
+
+    <script>
+        // document.getElementById("btn").onmouseover=() =>{
+        //     document.getElementById("h").style.color = "red"
+        // }
+        // document.getElementById("btn").onclick=() =>{
+        //      let a =document.getElementById("text").value 
+        //      document.getElementById("text").value = "";
+           
+        //     document.getElementById("pe").innerHTML = `<h1> ${a}</h1>`
+        // }
+        document.getElementById("se").onchange = () => {
+            let a = document.getElementById("se").value
+            document.getElementById("pe").innerText = a
+        }
+    </script>
+</body>
+</html>
